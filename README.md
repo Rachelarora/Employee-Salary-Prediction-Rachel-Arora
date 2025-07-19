@@ -58,12 +58,8 @@ Welcome to the **AI Salary Predictor** – an intelligent web application that e
 # Access Project 
 Project Link: https://employee-salary-prediction-app-by-rachel.streamlit.app/
 
-# 📁 Project Structure
-salary-prediction-app/
-├── app.py                         # Streamlit app
-├── salary_prediction_pipeline.pkl # Trained ML model
-├── requirements.txt               # Python dependencies
-├── README.md                      # Project documentation
+# 🎥 Project Demo
+Video Link: https://drive.google.com/file/d/141hJqw3kKH04eHlfYLzTER5ud-mv_UIF/view?usp=drive_link
 
 # 📌 Future Improvements
 - 🌐 Add multilingual support
