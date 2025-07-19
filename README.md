@@ -54,3 +54,25 @@ Welcome to the **AI Salary Predictor** – an intelligent web application that e
 2. The input is passed to a **trained ML pipeline** (`salary_prediction_pipeline.pkl`).
 
 3. The model outputs an estimated **salary (in INR ₹)** based on historical trends.
+   
+# Access Project 
+Project Link: https://employee-salary-prediction-app-by-rachel.streamlit.app/
+
+# 📁 Project Structure
+salary-prediction-app/
+├── app.py                         # Streamlit app
+├── salary_prediction_pipeline.pkl # Trained ML model
+├── requirements.txt               # Python dependencies
+├── README.md                      # Project documentation
+
+# 📌 Future Improvements
+- 🌐 Add multilingual support
+- 📈 Integrate salary visualizations
+- 💼 Expand dataset to include job industries and locations
+
+# 🙌 Acknowledgments
+- Dataset sourced from Kaggle
+- Inspired by real-world HR and data science use cases
+
+# 📬 Contact Me
+Created with love by Rachel Arora. 🌐 LinkedIn: https://www.linkedin.com/in/rachelarora/
