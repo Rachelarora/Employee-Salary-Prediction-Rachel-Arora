@@ -55,7 +55,7 @@ Welcome to the **AI Salary Predictor** – an intelligent web application that e
 
 3. The model outputs an estimated **salary (in INR ₹)** based on historical trends.
    
-# Access Project 
+# 📁 Access Project 
 Project Link: https://employee-salary-prediction-app-by-rachel.streamlit.app/
 
 # 🎥 Project Demo
