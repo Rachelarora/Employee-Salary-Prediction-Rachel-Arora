@@ -1,5 +1,6 @@
 # Employee-Salary-Prediction-Rachel-Arora
-AI-Powered Machine Learning project that helps predict employee salary from trained model and datasets
+This project is done under my 6-week virtual internship with Edunet Foundation in collaboration with IBM SkillsBuild platform given by AICTE internship portal.
+
 # 💼 AI-Powered Salary Prediction Web App
 Welcome to the **AI Salary Predictor** – an intelligent web application that estimates employee salaries based on key factors such as age, gender, education level, job title, and years of experience.
 
