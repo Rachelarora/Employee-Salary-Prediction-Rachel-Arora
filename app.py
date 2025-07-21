@@ -395,6 +395,16 @@ def main():
                     </div>
                     """, unsafe_allow_html=True)
                     
+                    # Additional metrics
+                    col2, col3 = st.columns(2)
+                    
+                    with col2:
+                        hourly_rate = converted_salary / (40 * 52)
+                        st.metric("Hourly Rate", f"{symbol} {hourly_rate:.2f}")
+                    
+                    with col3:
+                        daily_rate = converted_salary / 365
+                        st.metric("Daily Earning", f"{symbol} {daily_rate:.2f}")
                     
                     
                     # Visualization
