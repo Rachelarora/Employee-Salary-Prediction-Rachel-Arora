@@ -394,7 +394,10 @@ def main():
                         <div class="prediction-amount">{symbol} {converted_salary:,.2f}</div>
                     </div>
                     """, unsafe_allow_html=True)
-                    
+                    # Visualization
+                    if show_charts:
+                        st.markdown("### 📊 Salary Breakdown")
+                        
                     # Additional metrics
                     col2, col3 = st.columns(2)
                     
@@ -406,11 +409,6 @@ def main():
                         daily_rate = converted_salary / 365
                         st.metric("Daily Earning", f"{symbol} {daily_rate:.2f}")
                     
-                    
-                    # Visualization
-                    if show_charts:
-                        st.markdown("### 📊 Salary Breakdown")
-                        
                         # Create a simple comparison chart
                         job_avg_salaries = {
                             "Developer": 800000,
