@@ -60,7 +60,7 @@ Welcome to the **AI Salary Predictor** – an intelligent web application that e
 Project Link: https://employee-salary-prediction-app-by-rachel.streamlit.app/
 
 # 🎥 Project Demo
-Video Link: https://drive.google.com/file/d/141hJqw3kKH04eHlfYLzTER5ud-mv_UIF/view?usp=drive_link
+Access Video here 👉 [Demo](https://drive.google.com/file/d/1yb9TiO01I__R1LYY4O-3crp15sayLuaW/view?usp=drive_link)
 
 # 📌 Future Improvements
 - 🌐 Add multilingual support
