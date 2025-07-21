@@ -390,25 +390,12 @@ def main():
                     # Display prediction
                     st.markdown(f"""
                     <div class="prediction-card">
-                        <p class="prediction-label">💰 Predicted Annual Salary</p>
+                        <p class="prediction-label">💰 Predicted Monthly Salary</p>
                         <div class="prediction-amount">{symbol} {converted_salary:,.2f}</div>
                     </div>
                     """, unsafe_allow_html=True)
                     
-                    # Additional metrics
-                    col1, col2, col3 = st.columns(3)
                     
-                    with col1:
-                        monthly_salary = converted_salary / 12
-                        st.metric("Monthly Salary", f"{symbol} {monthly_salary:,.2f}")
-                    
-                    with col2:
-                        hourly_rate = converted_salary / (40 * 52)
-                        st.metric("Hourly Rate", f"{symbol} {hourly_rate:.2f}")
-                    
-                    with col3:
-                        daily_rate = converted_salary / 365
-                        st.metric("Daily Earning", f"{symbol} {daily_rate:.2f}")
                     
                     # Visualization
                     if show_charts:
