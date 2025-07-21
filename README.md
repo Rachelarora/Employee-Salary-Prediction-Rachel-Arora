@@ -38,7 +38,7 @@ Welcome to the **AI Salary Predictor** – an intelligent web application that e
 - **Python 3.10+**
 - **Streamlit**
 - **Scikit-learn**
-- **Pandas, NumPy**
+- **Pandas, NumPy, Matplotlib** 
 - **Joblib** for model saving/loading
 
 ---
