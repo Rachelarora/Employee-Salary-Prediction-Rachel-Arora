@@ -22,7 +22,19 @@ Welcome to the **AI Salary Predictor** – an intelligent web application that e
 - 💾 **Model Trained on Kaggle Dataset**  
   Uses real-world data to deliver accurate predictions.
 
+## How to Run
+1. Clone this repository
+2. Install dependencies:  
+   `pip install -r requirements.txt`
+3. Run the app:  
+   `streamlit run app.py`
 
+## Files
+- `app.py`: Main Streamlit app
+- `requirements.txt`: requirements required
+- `salary_prediction_pipeline.pkl`: Serialized trained model
+
+  
 ## 📊 Model Performance
 
 |               Metric               |     Value      |
